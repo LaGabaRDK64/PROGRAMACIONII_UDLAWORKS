@@ -10,11 +10,8 @@ public class mainC {
     }
     public static void main(String[] args){
 
-        Cliente cliente1 = new Cliente();
-        Cliente cliente_error = new Cliente();
-
-        cliente1.construct_client("Fernando Flores","fernan_flor2007@gmail.com",20,18.20);
-        cliente_error.construct_client("","",-50,-60.6);
+        Cliente cliente1 = new Cliente("Fernando Flores","fernan_flor2007@gmail.com",20,18.20);
+        Cliente cliente_error = new Cliente("","",-50,-60.6);
 
         System.out.println("TEST...\n=== INFORMACION CLIENTES ===");
         mostrarInformacion(cliente1);

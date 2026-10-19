@@ -31,7 +31,7 @@ public class Producto {
         this.stock = new_stock;
     }
 
-    public void constructorProducto(String final_name, String final_categoria, int final_stock, double final_precio){
+    public Producto(String final_name, String final_categoria, int final_stock, double final_precio){
 
         setNombre(final_name);
         setCategoria(final_categoria);
@@ -42,9 +42,7 @@ public class Producto {
     public String getNombre(){
         return this.nombre;
     }
-    public String getCategoria(){
-        return this.categoria;
-    }
+    public String getCategoria(){return this.categoria;}
     public int getStock(){
         return this.stock;
     }
@@ -53,7 +51,7 @@ public class Producto {
     }
 
     public void aumentarStock(int cantidad){
-        if (cantidad > 0)
+        if (cantidad >= 0)
             this.stock += cantidad;
     }
 

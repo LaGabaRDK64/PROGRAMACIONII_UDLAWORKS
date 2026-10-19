@@ -45,7 +45,7 @@ public class Cliente {
         return this.saldo;
     }
 
-    public void construct_client(String _name_final, String _correo_final, int _edad_final, double _saldo_final){
+    public Cliente(String _name_final, String _correo_final, int _edad_final, double _saldo_final){
         setNombre(_name_final);
         setCorreo(_correo_final);
         setEdad(_edad_final);
