@@ -1,14 +1,18 @@
 8. ¿Por qué Modulo[] se declara como atributo del analizador?
 Para poder trabajar con los metodos que establecimos y poder trabajar
 con varias instancias de objetos a la vez.
+
 7. ¿Qué representa cada posición del arreglo?
 Cada posición guarda una referencia a un objeto Modulo del proyecto
+
 8. ¿Por qué un módulo puede existir sin el analizador?
 Por que estan creados en otra clase, y cada instancia se crea
 fuera de la clase AnalizadorProyecto
+
 9. ¿Qué relación existiría si solo se recibiera Modulo[] en un método?
 Existiria una dependencia de uso, ya que el uso es temporal y limitado
 al ámbito de ese método.
+
 10. ¿Qué retorna buscarModulo() si no encuentra coincidencia?
 Retorna un valor nulo null, para indicar que ningún módulo en el arreglo
 tiene un nombre que coincida.
