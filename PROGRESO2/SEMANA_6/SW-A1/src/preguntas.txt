@@ -1,0 +1,9 @@
+¿Quien crea las tareas?
+Se crean en main y se pasan mediante el arreglo al constructor en Tarea.
+
+¿Por que es asociacion?
+Porque AnalizadorTareas conserva Tarea[] como atributo de estado,
+pero los objetos son independientes de esa clase.
+
+¿Qué retorna el máximo si no hay tareas?
+Null
