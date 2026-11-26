@@ -1,15 +1,14 @@
 package interfaz;
 
 import modelo.Juegos;
-import modelo.AppSotre;
+import modelo.AppStore;
 import util.Validacion;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 
 public class MainTienda {
-    private static AppSotre tienda = new AppSotre();
+    private static AppStore tienda = new AppStore();
     private static Scanner sc = new Scanner(System.in);
 
     static void main(){

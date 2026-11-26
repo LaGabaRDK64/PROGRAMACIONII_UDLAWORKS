@@ -1,13 +1,13 @@
 package modelo;
 
-public class AppSotre {
+public class AppStore {
 
     private Juegos juegos[];
     private static final int  MAX = 4;
 
     private int index;
 
-    public AppSotre(){
+    public AppStore(){
 
         juegos= new Juegos[MAX];
 
