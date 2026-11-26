@@ -1,0 +1,18 @@
+1. ¿Por qué Producto[] forma parte del estado de AnalizadorCatalogo?
+Por que analizador necesita conservar la referencia al catálogo durante toda su vida util para
+realizar los metodos programados.
+
+2. ¿Qué cambiaría si el arreglo solo apareciera como parámetro de contarDisponibles()?
+La relación pasaria a ser de una asociación a dependencia de uso.
+
+3. ¿Quién crea los productos?
+Los crea el código externo que arma el catalogo al poner la palabra
+new Producto para cada iteración
+
+4. ¿Pueden existir los productos sin AnalizadorCatalogo?
+Si ya que cada producto se crea fuera de la clase analizadorCatalogo.
+
+5. ¿Por qué esta relación es asociación y no composición?
+Ya que la clase AnalizadorCatalogo no crea o contiene a los productos,
+solo es un punto de referencia de arreglos que son creados desde
+afuera.

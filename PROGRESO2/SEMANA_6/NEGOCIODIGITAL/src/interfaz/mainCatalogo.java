@@ -24,5 +24,4 @@ public class mainCatalogo {
         System.out.println("Busqueda 'P02': " + (encontrado != null ? encontrado.mostrarInformacion() : "Ninguno"));
 
     }
-
 }
