@@ -1,0 +1,19 @@
+¿Qué atributos pertenecen a la clase padre?
+    String: Titular y Double: Limite
+
+¿Para qué sirve super(...)?
+    Anclar los atributos de la clase padre a la clase hija.
+
+¿Qué garantiza @Override?
+    Sobreescribir un método de la superclase y verificar que se cumpla
+    el nombre, el tipo de dato de retorno y parametros, si no no seria
+    sobreescritura.
+
+¿Qué diferencia hay entre heredar y sobrescribir?
+    Heredar es recibir atributos y metodos de la clase padre, sobreescribir es
+    redefinir los metodos heredados para dar un comportamiento propio
+
+¿Por qué Compra puede trabajar con cualquier subclase de MetodoPago?
+    Por polimorfismo, es decir porque en la clase compra se hace referencia
+    a Metodo de pago, por lo que cualquier objeto que sea clase hija al
+    compartir atributos tambien comparte la referencia.
