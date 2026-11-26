@@ -1,0 +1,17 @@
+6. ¿Por qué la relación es agregación?
+    Porque los desarrolladores tienen ciclo de vida independiente
+    de la clase proyecto, pese a tener referencias dentro.
+
+7. ¿Qué pasa con d1 si se elimina del proyecto?
+    Solo se elimina su referencia, pese a eso el objeto se almacena en la memoria.
+
+8. ¿Qué diferencia habría si Proyecto creara los desarrolladores?
+    Se acercaria mas a una composición, donde proyecto es quien controla
+    y dirige las instancias de los desarrolladores
+
+9. ¿Qué ventaja ofrece ArrayList frente a un arreglo fijo?
+    Memoria dinamica, es decir, agregar o eliminar un elemento del arreglo sin que este
+    gaste memoria si no se esta usando.
+
+10. ¿Qué retorna buscar si no existe?
+    null
